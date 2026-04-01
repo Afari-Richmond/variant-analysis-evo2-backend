@@ -1,0 +1,16 @@
+# Ignore Python's internal caches
+__pycache__/
+*.py[cod]
+
+# Ignore the heavy Evo2 source code (since Modal clones it in the cloud)
+evo2/
+
+# Ignore local environment settings
+.env
+.venv/
+node_modules/
+
+# Ignore large data files or model weights
+*.pt
+*.fna.gz
+*.xlsx
